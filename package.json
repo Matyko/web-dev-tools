@@ -10,6 +10,10 @@
     "Web Dev",
     "Front End Toolkit"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matyko/web-dev-tools.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack"
@@ -21,6 +25,12 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@types/chrome": "0.0.133",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.2.0",
     "ts-loader": "^8.0.17",
     "typescript": "^4.2.3",
     "webpack": "^5.24.3",
