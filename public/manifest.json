@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Web Dev Toolkit",
+  "version": "1.0",
+  "description": "Some useful tools to help web development",
+  "icons": {
+    "128": "icon_128.png",
+    "48": "icon_48.png",
+    "16": "icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  }
+}
