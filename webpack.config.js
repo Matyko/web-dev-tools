@@ -28,7 +28,7 @@ module.exports = {
     devtool: "cheap-module-source-map",
     entry: {
         popup: "./src/popup/index.tsx",
-        contentScript: "./src/content-script/index.tsx"
+        contentScript: "./src/content-script/index.ts"
     },
     output: {
         filename: "[name].js",
@@ -36,6 +36,10 @@ module.exports = {
     },
     module: {
         rules: [tsRule]
+    },
+    resolve: {
+        modules: ["./src/common/", "node_modules"],
+        extensions: [".ts", ".js"]
     },
     plugins
 }
